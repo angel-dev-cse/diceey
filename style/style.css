@@ -1,0 +1,53 @@
+/* DEFAULT SECTION */
+body {
+    color: #f8efd4;
+    background-color: #132743;
+}
+
+p {
+    margin: 0;
+    display: inline;
+}
+
+.container {
+    padding-top: 5%;
+}
+
+
+/* RESULT SECTION */
+.trophy-icon{
+    width: 5rem;
+}
+
+.result-header {
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+/* GAME SECTION */
+#game {
+    padding: 2% 14% 5%;
+}
+
+.player-section {
+    margin: 2% 0;
+}
+
+.player-header {
+    font-family: 'Courgette', cursive;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.dice-image {
+    border-radius: 10%;
+}
+/* FOOTER SECTION */
+.footer-icon {
+    width: 1.2rem;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chess Game</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="container text-center">
+      <section class="result">
+        <div class="row">
+          <div class="col-lg-2 col-md-2">
+            <img
+              id="trophy-1"
+              class="trophy-icon"
+              src="resource/icons/trophy.png"
+              alt="trophy.png"
+            />
+          </div>
+          <div class="col-lg-8 col-md-8">
+            <h1 id="result" class="result result-header">It's a TIE!</h1>
+          </div>
+          <div class="col-lg-2 col-md-2">
+            <img
+              id="trophy-2"
+              class="trophy-icon"
+              src="resource/icons/trophy.png"
+              alt="trophy.png"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="game">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 player-section">
+            <h3 class="player-header">Player 1</h3>
+            <img
+              id="player-1-dice"
+              class="dice-image"
+              src="resource/images/dice-6.png"
+              alt="player1-dice"
+            />
+          </div>
+          <div class="col-lg-6 col-md-6 player-section">
+            <h3 class="player-header">Player 2</h3>
+            <img
+              id="player-2-dice"
+              class="dice-image"
+              src="resource/images/dice-6.png"
+              alt="player2-dice"
+            />
+          </div>
+        </div>
+
+        <input
+          class="btn btn-lg btn-success pl-5 pr-5 m-5"
+          type="button"
+          value="ROLL"
+          onclick="roll()"
+        />
+      </section>
+
+      <section class="footer">
+        <p>Developed with</p>
+        <img class="footer-icon" src="resource/icons/love.png" alt="love" />
+        <p>from Bangladesh</p>
+      </section>
+    </div>
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Local Script -->
+    <script src="index.js"></script>
+  </body>
+</html>
